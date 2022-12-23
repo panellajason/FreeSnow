@@ -1,0 +1,25 @@
+.navItemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.separator {
+    height: 1px;
+    background-color: white;
+    width: 100%;
+}
+
+.separatorContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+    margin-right: -50px;
+}

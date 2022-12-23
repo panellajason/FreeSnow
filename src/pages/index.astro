@@ -1,0 +1,18 @@
+---
+	import HomePage from '../components/pages/HomePage'
+	import NavBar from '../components/NavBar';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>localhost:3000</title>
+	</head>
+	<body style="background-color:black; margin-left:50px; margin-right:50px">
+		<NavBar selectedNavItem="Home"></NavBar>
+		<HomePage client:only></HomePage>
+	</body>
+</html>
