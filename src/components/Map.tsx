@@ -96,7 +96,7 @@ const Map = () => {
             <MapContainer 
                 center={[41.987234, -114.033030]} 
                 zoom={5.3} 
-                style={{ height:"550px", width: "100%", backgroundColor:"100%",marginTop:"10px", marginBottom:'50px', borderRadius: '10px'}}
+                style={{ height:"550px", width: "100%", backgroundColor:"100%", marginBottom:'10px', borderRadius: '10px'}}
             >
                 <Suspense>Error
                     <TileLayer
